@@ -1,5 +1,0 @@
-[core]
-    autostage = true
-['remote "origin"']
-    url = s3://dvc
-    endpointurl = https://dagshub.com/michelpf/fiap-ds-mlops-laptop-pricing-brl.s3
