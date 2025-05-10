@@ -1,0 +1,16 @@
+black
+flake8
+isort
+mkdocs
+pip
+pytest
+python-dotenv
+notebook
+pandas
+numpy
+scikit-learn
+ipywidgets
+ipykernel
+dagshub == 0.5.8
+mlflow
+dvc-s3
