@@ -1,4 +1,4 @@
-cataboost_info/*.*
+notebooks/catboost_info/
 
 # Data
 /data/
