@@ -1,4 +1,6 @@
-# laptop-pricing-brl
+[![Notify API Deployment](https://github.com/michelpf/fiap-ds-mlops-laptop-pricing-brl/actions/workflows/notify_api_deployment.yml/badge.svg)](https://github.com/michelpf/fiap-ds-mlops-laptop-pricing-brl/actions/workflows/notify_api_deployment.yml)
+
+# Laptop Pricing Model
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
