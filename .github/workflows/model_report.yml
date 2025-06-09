@@ -24,10 +24,11 @@ jobs:
 
       - name: Install dependencies
         run: pip install mlflow
+    
+      - name: Debug PR context
+        run: 'echo "PR Number: ${{ github.event.pull_request.number }}"'
 
       - name: Generate MLflow Report
-        env:
-            REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python reports/report.py
 
       - name: Comment on Pull Request
