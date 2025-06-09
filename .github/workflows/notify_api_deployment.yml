@@ -1,0 +1,25 @@
+name: Notify API Deployment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  notify_api_repository:
+    name: "Notification to API Repository"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy Stage
+        uses: actions/github-script@v6
+        with:
+            github-token: ${{ secrets.ACCESS_TOKEN }}
+            script: |
+                await github.rest.actions.createWorkflowDispatch({
+                    owner: "michelpf",
+                    repo: "fiap-ds-mlops-api-laptop-pricing-brl",
+                    workflow_id: "deploy.yml",
+                    ref: "master"
+                })
