@@ -22,11 +22,11 @@ jobs:
         with:
           python-version: '3.10'
       
+      - name: Install dependencies
+        run: pip install mlflow pytest
+
       - name: Unit testing
         run: pytest
-
-      - name: Install dependencies
-        run: pip install mlflow
 
       - name: Generate MLflow Report
         run: python reports/report.py
