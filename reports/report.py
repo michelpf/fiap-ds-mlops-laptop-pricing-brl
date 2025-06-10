@@ -65,4 +65,4 @@ for metric in prod_metrics:
 with open("mlflow_report.md", "w") as f:
     f.write(report)
 
-print("✅ MLflow report comparing latest experiment with production model generated.")
+print("MLflow report comparing latest experiment with production model generated.")
