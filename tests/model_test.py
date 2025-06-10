@@ -85,7 +85,6 @@ def test_golden_data():
 
     assert range_golden_data(result, 6700), "ensuring golden data results"
 
-
 def test_model_load_call():
     
     payload = {
