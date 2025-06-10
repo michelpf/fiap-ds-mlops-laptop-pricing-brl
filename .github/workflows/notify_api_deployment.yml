@@ -13,6 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Unit testing
+        run: pytest
+
       - name: Deploy Stage
         uses: actions/github-script@v6
         with:
