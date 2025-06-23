@@ -2,46 +2,48 @@
 ## 📊 MLflow Report: `laptop-pricing-model`
 
 ### 🏁 Production Model (Last registered version)
-- **Run ID**: `211650eabbba4ef2a9cf2c7aed6fc36b`
-- **Model Version**: `5`
+- **Run ID**: `3ed42323a49747bdb3105472fe72b57d`
+- **Model Version**: `6`
 
 #### 🔢 Metrics
-- `R2`: 0.6421
-- `MSE`: 3026852.0000
-- `training_mean_squared_error`: 753320.3125
-- `training_mean_absolute_error`: 539.8138
-- `training_r2_score`: 0.9220
-- `training_root_mean_squared_error`: 867.9403
-- `training_score`: -0.1015
-- `best_cv_score`: -0.1598
-- `MAPE`: 0.1564
-- `MAE`: 958.0400
+- `MAPE`: 0.1394
+- `training_mean_squared_error`: 352413.7188
+- `training_mean_absolute_error`: 392.8785
+- `training_r2_score`: 0.9635
+- `training_root_mean_squared_error`: 593.6444
+- `training_score`: -0.0781
+- `best_cv_score`: -0.1365
+- `MAE`: 888.1827
+- `MSE`: 2688678.0000
+- `R2`: 0.6818
 
 ---
 
 ### 🧪 Latest Experimental Run
-- **Run ID**: `85821fcfbe6f4ce892fa4288626342aa`
+- **Run ID**: `3ed42323a49747bdb3105472fe72b57d`
 
 #### 🔢 Metrics
-- `MAE`: 1197.1667
-- `training_precision_score`: 0.5071
-- `training_recall_score`: 0.5183
-- `training_f1_score`: 0.4621
-- `training_accuracy_score`: 0.5183
-- `training_log_loss`: 7.2320
-- `training_roc_auc`: 0.9918
-- `training_score`: -0.0824
-- `best_cv_score`: -0.1910
-- `R2`: 0.5173
-- `MSE`: 4078482.0726
-- `MAPE`: 0.2048
+- `MAPE`: 0.1394
+- `training_mean_squared_error`: 352413.7188
+- `training_mean_absolute_error`: 392.8785
+- `training_r2_score`: 0.9635
+- `training_root_mean_squared_error`: 593.6444
+- `training_score`: -0.0781
+- `best_cv_score`: -0.1365
+- `MAE`: 888.1827
+- `MSE`: 2688678.0000
+- `R2`: 0.6818
 
 ---
 
 ### 📈 Metric Comparison
-- `R2`: Experiment = 0.5173, Production = 0.6421, Δ = -0.1248
-- `MSE`: Experiment = 4078482.0726, Production = 3026852.0000, Δ = +1051630.0726
-- `training_score`: Experiment = -0.0824, Production = -0.1015, Δ = +0.0191
-- `best_cv_score`: Experiment = -0.1910, Production = -0.1598, Δ = -0.0312
-- `MAPE`: Experiment = 0.2048, Production = 0.1564, Δ = +0.0484
-- `MAE`: Experiment = 1197.1667, Production = 958.0400, Δ = +239.1266
+- `MAPE`: Experiment = 0.1394, Production = 0.1394, Δ = +0.0000
+- `training_mean_squared_error`: Experiment = 352413.7188, Production = 352413.7188, Δ = +0.0000
+- `training_mean_absolute_error`: Experiment = 392.8785, Production = 392.8785, Δ = +0.0000
+- `training_r2_score`: Experiment = 0.9635, Production = 0.9635, Δ = +0.0000
+- `training_root_mean_squared_error`: Experiment = 593.6444, Production = 593.6444, Δ = +0.0000
+- `training_score`: Experiment = -0.0781, Production = -0.0781, Δ = +0.0000
+- `best_cv_score`: Experiment = -0.1365, Production = -0.1365, Δ = +0.0000
+- `MAE`: Experiment = 888.1827, Production = 888.1827, Δ = +0.0000
+- `MSE`: Experiment = 2688678.0000, Production = 2688678.0000, Δ = +0.0000
+- `R2`: Experiment = 0.6818, Production = 0.6818, Δ = +0.0000

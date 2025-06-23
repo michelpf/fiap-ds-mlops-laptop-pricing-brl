@@ -1,4 +1,4 @@
-name: Notify API Deployment & PR Repoerting
+name: Notify API Deployment
 
 on:
   push:
