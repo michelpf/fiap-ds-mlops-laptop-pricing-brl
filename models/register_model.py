@@ -1,9 +1,11 @@
 import os
 import mlflow
 from mlflow.tracking import MlflowClient
-import dagshub
+from dotenv import load_dotenv
 
-dagshub.init(repo_owner='michelpf', repo_name='fiap-ds-mlops-laptop-pricing-brl', mlflow=True)
+load_dotenv()
+
+mlflow.set_tracking_uri("https://dagshub.com/michelpf/fiap-ds-mlops-laptop-pricing-brl.mlflow")
 
 client = MlflowClient()
 model_name = "laptop-pricing-model"
