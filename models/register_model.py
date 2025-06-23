@@ -1,8 +1,10 @@
 import os
 import mlflow
 from mlflow.tracking import MlflowClient
+import dagshub
 
-mlflow.set_tracking_uri("https://dagshub.com/michelpf/fiap-ds-mlops-laptop-pricing-brl.mlflow")
+dagshub.init(repo_owner='michelpf', repo_name='fiap-ds-mlops-laptop-pricing-brl', mlflow=True)
+
 client = MlflowClient()
 model_name = "laptop-pricing-model"
 
